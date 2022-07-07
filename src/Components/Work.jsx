@@ -1,13 +1,11 @@
 import {
   useState
 } from "react";
-import Footer from "./Footer.js";
-import Header from "./Header.js";
-import Videos from "./Videos.js"
+import Footer from "./Footer.jsx";
+import Header from "./Header.jsx";
+import Videos from "./Videos.jsx"
 import data from "../data.js";
-import {
-  Grid
-} from '@mui/material';
+
 
 
 const Work = () => {

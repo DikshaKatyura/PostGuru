@@ -1,7 +1,7 @@
 import profile from "../Media/profile_picture.jpg";
 import description from "../Media/description.js"
-import  Header from "./Header.js";
-import Footer from "./Footer.js";
+import  Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 import {Grid} from "@mui/material";
 
 const about = description;

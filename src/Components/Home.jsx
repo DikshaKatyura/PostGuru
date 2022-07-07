@@ -1,6 +1,6 @@
 import gif from "../Media/money_slide.gif";
-import  Header from "./Header.js";
-import Footer from "./Footer.js";
+import  Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 const Home = ()=> {
 
   return (

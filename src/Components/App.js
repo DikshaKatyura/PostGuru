@@ -1,9 +1,9 @@
 
-import  Header from "./Header.js";
-import Home from "./Home.js"
-import Work from "./Work.js"
-import About from "./About.js"
-import Contact from "./Contact.js"
+import  Header from "./Header.jsx";
+import Home from "./Home.jsx"
+import Work from "./Work.jsx"
+import About from "./About.jsx"
+import Contact from "./Contact.jsx"
 import {Route, Routes} from "react-router-dom";
 
 function App() {
