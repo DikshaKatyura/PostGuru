@@ -1,0 +1,63 @@
+body{
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: #7F8487;
+  transition: transform .2s;
+}
+
+.logo{
+  transition: transform .2s;
+}
+
+.nav-link {
+  color: #7F8487;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  transition: transform .2s;
+
+}
+
+.nav-link:hover,a:hover,.logo:hover{
+  color: #222831;
+  transform: scale(1.1);
+}
+
+.navBar{
+  position: relative;
+  bottom:3em;
+}
+
+.active {
+  color: #DFDFDE;
+  text-decoration: underline;
+}
+
+.css-e53awj-MuiStack-root,.MuiPaper-root {
+  justify-content: center;
+  color: black;
+}
+
+.footer {
+padding-top: 15em;
+}
+
+.filter-buttons {
+padding: 1em 0;
+}
+
+.btn {
+  margin: 0.5em;
+  color: #222831;
+  transition: transform .2s;
+}
+
+.btn:hover {
+  background-color: #DFDFDE;
+  color: #222831;
+  font-weight: bold;
+  transform: scale(1.1);
+}
