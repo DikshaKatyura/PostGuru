@@ -24,83 +24,83 @@ const Work = () => {
 
   return < >
     <
-    Header / >
+      Header />
     <
-    div className = "filter-buttons" >
-    <
-    button type = "button"
-  className = "btn btn-outline-dark"
-  onClick = {
-      () => setItem(data)
-    } > All < /button> <
-    button type = "button"
-  className = "btn btn-outline-dark"
-  onClick = {
-      () => filterItems('volkswagonVirtus')
-    } > Volkswagon Virtus < /button> <
-    button type = "button"
-  className = "btn btn-outline-dark"
-  onClick = {
-      () => filterItems('volkswagonDigital')
-    } > VolksWagon Digital Assets < /button> <
-    button type = "button"
-  className = "btn btn-outline-dark"
-  onClick = {
-      () => filterItems('volkswagonAd')
-    } > VolksWagon Ad Films < /button> <
-    button type = "button"
-  className = "btn btn-outline-dark"
-  onClick = {
-      () => filterItems('musicVideos')
-    } > Music Videos < /button> <
+    div className="filter-buttons" >
+      <
+    button type="button"
+        className="btn btn-outline-dark"
+        onClick={
+          () => setItem(data)
+        } > All < /button> <
+    button type="button"
+          className="btn btn-outline-dark"
+          onClick={
+            () => filterItems('volkswagonVirtus')
+          } > Volkswagon Virtus < /button> <
+    button type="button"
+            className="btn btn-outline-dark"
+            onClick={
+              () => filterItems('volkswagonDigital')
+            } > VolksWagon Digital Assets < /button> <
+    button type="button"
+              className="btn btn-outline-dark"
+              onClick={
+                () => filterItems('volkswagonAd')
+              } > VolksWagon Ad Films < /button> <
+    button type="button"
+                className="btn btn-outline-dark"
+                onClick={
+                  () => filterItems('musicVideos')
+                } > Music Videos < /button> <
     /div> <
-    div className = "filter-buttons" >
-    <
-    button type = "button"
-  className = "btn btn-outline-dark"
-  onClick = {
-      () => filterItems('mcWinter')
-    } > Monte Carlo(Winter) < /button> <
-    button type = "button"
-  className = "btn btn-outline-dark"
-  onClick = {
-      () => filterItems('mcSummer')
-    } > Monte Carlo(Summer) < /button> <
-    button type = "button"
-  className = "btn btn-outline-dark"
-  onClick = {
-      () => filterItems('miscllaneous')
-    } > Misclleneous < /button>
+    div className="filter-buttons" >
+                  <
+    button type="button"
+                    className="btn btn-outline-dark"
+                    onClick={
+                      () => filterItems('mcWinter')
+                    } > Monte Carlo(Winter) < /button> <
+    button type="button"
+                      className="btn btn-outline-dark"
+                      onClick={
+                        () => filterItems('mcSummer')
+                      } > Monte Carlo(Summer) < /button> <
+    button type="button"
+                        className="btn btn-outline-dark"
+                        onClick={
+                          () => filterItems('miscllaneous')
+                        } > Misclleneous < /button>
 
-    <
+                        <
     /div>
 
-    <
-    div className = "row col-11 mx-auto cards" >
-    <
-    div className = "row" >
+                        <
+    div className="row col-11 mx-auto cards" >
+                          <
+    div className="row" >
 
-    {
-      item.reverse().map(ele => {
+                            {
+                              item.reverse().map(ele => {
 
-        const {
-          src,
-          key
-        } = ele;
+                                const {
+                                  src,
+                                  key
+                                } = ele;
 
-        return < >
-          <
-          div className = "col-sm-12 col-md-6 col-lg-3" >
-          <
-          div className = "video-responsive" >
-          <
-          Videos src = {
-            src
-          }
-        key = {
-          key
-        }
-        /> <
+                                return < >
+                                  <
+          div className="col-sm-12 col-md-6 col-lg-4" >
+                                    <
+          div className="video-responsive" >
+                                      <
+                                        Videos src={
+                                          src
+                                        }
+                                        key={
+                                          key
+                                        }
+                                      /> <
         /div> <
         /div> <
         />
@@ -109,15 +109,15 @@ const Work = () => {
       })
     }
 
-    <
+                                      <
     /div> <
     /div>
 
-    <
-    Footer / >
-    <
+                                      <
+                                        Footer />
+                                      <
     />
 }
 
 
-export default Work;
+                                      export default Work;
